@@ -1,0 +1,76 @@
+//Dec 2 - 2022
+package SeleniumSessions;
+/**
+ * 
+ * @author mchugh
+ *This program is about Loops
+ */
+public class LoopsConcept {
+
+	public static void main(String[] args) {
+
+		//1 to 10
+//		System.out.println(1);
+//		System.out.println(2);
+//		System.out.println(3);
+//		System.out.println(4);
+//		System.out.println(5);
+		
+		//Loops
+		//1. while
+		int i=1;//initialization
+		while(i<=10) {//condition
+			System.out.println(i);//1 2 3 ...10
+			i++;//incremental//decremental
+		}
+		
+		System.out.println("------------");
+		
+		//2. for
+		for(int k=1; k<=10; k++) {
+			System.out.println(k);// 1 2 3 4 ..10
+		}
+		
+//		for( ; ; ) {
+//			System.out.println("hello");
+//		}
+		System.out.println("------------");
+		
+		//even numbers: 0 2 4 6 8 10
+		for(int even=0; even<=10; even+=2) {
+		System.out.println(even);
+		
+		}
+		
+		System.out.println("------------");
+		
+		//odd numbers:1 3 5 7 9 
+		for(int odd=1; odd<=9; odd+=2) {
+			System.out.println(odd);
+		}
+		
+		System.out.println("------------");
+		
+		for(int p=1; p<=10;) {
+			System.out.println(p);
+			p++;
+		}
+		System.out.println("------------");
+		for(int h=1;h<=100;h++) {
+			System.out.println(h);
+			if(h%5 == 0) {
+				System.out.println("hello");
+			}
+		}
+		System.out.println("------------");
+		//3. do while 
+		int n=11;//initialization
+		do {
+			System.out.println("adfdafsfs");
+			n++;//increment or decrement
+			}
+		while(n<=10);//condition
+		
+	}
+
+}
