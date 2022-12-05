@@ -45,41 +45,32 @@ public class LoopsConcept {
 		System.out.println("------------");
 		
 		//odd numbers:1 3 5 7 9 
-//		for(int odd=1; odd<=9; odd+=2) {
-//			System.out.println(odd);
-		//}
+		for(int odd=1; odd<=9; odd+=2) {
+			System.out.println(odd);
+		}
 		
 		System.out.println("------------");
 		
-//		for(int p=1; p<=10;) {
-//			System.out.println(p);
-//			p++;
-//		}
+		for(int p=1; p<=10;) {
+			System.out.println(p);
+			p++;
+		}
 		System.out.println("------------");
 		
-//		for(int h=1;h<=100;h++) {
-//			System.out.println(h);
-//			if(h%5 == 0) {
-//				System.out.println("hello");
-//			}
-//		}
-//		System.out.println("------------");
+		for(int h=1;h<=100;h++) {
+			System.out.println(h);
+			if(h%5 == 0) {
+				System.out.println("hello");
+			}
+		}
+		System.out.println("------------");
 		for(char c='a'; c<='z';c++) {
-			System.out.println("char " +c);
-		}
-//		
-		System.out.println("------------");
-		for(byte b=1; b<=5; b++) {
-			System.out.println("byte " +b);
+			System.out.print(c);
 		}
 		
+		
 		System.out.println("------------");
-		for(double d=1.1; d<10; d++)
-		{
-			System.out.println("double " +d);
-		}
-	
-		System.out.println("------------");
+		
 		
 		//3. do while 
 		int n=11;//initialization

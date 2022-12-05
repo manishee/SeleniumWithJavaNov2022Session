@@ -64,22 +64,17 @@ public class LoopsConcept {
 //			}
 //		}
 //		System.out.println("------------");
-		for(char c='a'; c<='z';c++) {
-			System.out.println("char " +c);
-		}
+//		for(char c='a'; c<='z';c++) {
+//			System.out.println(c);
+//		}
 //		
 		System.out.println("------------");
 		for(byte b=1; b<=5; b++) {
-			System.out.println("byte " +b);
+			System.out.println(b);
 		}
 		
 		System.out.println("------------");
-		for(double d=1.1; d<10; d++)
-		{
-			System.out.println("double " +d);
-		}
-	
-		System.out.println("------------");
+		
 		
 		//3. do while 
 		int n=11;//initialization

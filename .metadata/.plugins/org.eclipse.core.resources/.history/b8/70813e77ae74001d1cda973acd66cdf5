@@ -1,0 +1,19 @@
+//Dec 5 -2022
+package SeleniumSessions;
+
+/**
+ * 
+ * @author mchugh
+ *This program is about Arrays
+ */
+
+public class ArrayConcepts {
+
+	public static void main(String[] args) {
+
+		int i=10;
+		i=20;
+		System.out.println(i);
+	}
+
+}

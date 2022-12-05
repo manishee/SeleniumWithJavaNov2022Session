@@ -78,8 +78,11 @@ public class LoopsConcept {
 		{
 			System.out.println("double " +d);
 		}
-	
+		
+		
+		
 		System.out.println("------------");
+		
 		
 		//3. do while 
 		int n=11;//initialization
