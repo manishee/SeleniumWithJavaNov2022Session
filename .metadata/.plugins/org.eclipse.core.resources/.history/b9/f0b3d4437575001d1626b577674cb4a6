@@ -13,13 +13,7 @@ public class ArrayConcepts {
 
 		
 		//Array -> a collection of multiple values of similar type
-		//two major limitations of array:
-		//1. static array - size is fixed. -- to overcome this issue, we can use dynamic arrays(ArrayList)
-		//2. it stores only similar data types - to overcome this issue, we can use object static array and ArrayList
 		
-		
-		
-		//int h=100;
 		int i[]=new int[4];
 		//i[-1]=30;//ArrayIndexOutOfBoundsException
 		i[0]=10;
@@ -81,7 +75,6 @@ public class ArrayConcepts {
 			System.out.println(cx);
 		}
 		System.out.println("-------------");
-		
 		String student[]=new String[3];
 		student[0]="Tom";
 		student[1]="Megha";
@@ -93,24 +86,6 @@ public class ArrayConcepts {
 		System.out.println("-------------");
 		for(String h : student) {
 			System.out.println(h);
-		}
-		
-		//Object static Array
-		//Object is the super class of all classes in java
-		System.out.println("-------------");
-		Object ob[]=new Object[5];
-		ob[0]="Tom";
-		ob[1]=25;
-		ob[2]=12.33;
-		ob[3]='m';
-		ob[4]=true;
-		
-		for(int h=0;h<ob.length;h++) {
-			System.out.println(ob[h]);
-		}
-		System.out.println("-------------");
-		for(Object x : ob) {
-			System.out.println(x);
 		}
 		
 		

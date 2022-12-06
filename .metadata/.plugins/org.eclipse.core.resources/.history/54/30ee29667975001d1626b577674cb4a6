@@ -97,7 +97,7 @@ public class ArrayConcepts {
 		
 		//Object static Array
 		//Object is the super class of all classes in java
-		System.out.println("-------------");
+		
 		Object ob[]=new Object[5];
 		ob[0]="Tom";
 		ob[1]=25;
@@ -106,11 +106,7 @@ public class ArrayConcepts {
 		ob[4]=true;
 		
 		for(int h=0;h<ob.length;h++) {
-			System.out.println(ob[h]);
-		}
-		System.out.println("-------------");
-		for(Object x : ob) {
-			System.out.println(x);
+			System.out.println(h);
 		}
 		
 		
