@@ -1,6 +1,8 @@
 //Dec 5 -2022
 package SeleniumSessions;
 
+import java.util.ArrayList;
+
 /**
  * 
  * @author mchugh
@@ -112,7 +114,10 @@ public class ArrayConcepts {
 		for(Object x : ob) {
 			System.out.println(x);
 		}
-
+		System.out.println("Introducing ArrayList");
+		ArrayList al=new ArrayList();
+		System.out.println(al.size());
+		
 		
 	}
 

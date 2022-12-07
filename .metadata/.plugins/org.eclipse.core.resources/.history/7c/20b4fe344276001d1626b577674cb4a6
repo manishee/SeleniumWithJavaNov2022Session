@@ -1,0 +1,47 @@
+//Dec 7 - 2022
+package SeleniumSessions;
+
+import java.util.ArrayList;
+
+/**
+ * 
+ * @author mchugh
+ *This program is about ArrayList
+ */
+public class ArrayListConcept {
+
+	public static void main(String[] args) {
+
+		//ArrayList is default class in java
+		//dynamic array
+		//order based/index based array/list/collection
+		
+		ArrayList ar=new ArrayList();
+		System.out.println(ar.size());
+		
+		ar.add(100);//0
+		ar.add(200);//1
+		
+		System.out.println(ar.size());
+		System.out.println(ar.get(0));
+		
+		ar.add(300);//2
+		ar.add(400);//3
+		
+		System.out.println(ar.size());
+		ar.add(500);//4
+		ar.add(600);//5
+		ar.add(700);//6
+		System.out.println(ar.size());
+		
+		ar.add(800);//7
+		ar.add(900);//8
+		ar.add(1000);//9
+		System.out.println(ar.size());
+		
+		
+		ar.add(1100);
+		System.out.println(ar.size());
+
+	}
+}
