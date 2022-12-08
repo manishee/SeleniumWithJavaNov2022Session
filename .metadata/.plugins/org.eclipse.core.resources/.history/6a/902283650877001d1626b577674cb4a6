@@ -87,23 +87,11 @@ public class ArrayListConcept {
 		for(int i=0;i<countryList.size(); i++) {
 			System.out.println(countryList.get(i));
 		}
-		System.out.println("------------");
 		//for each loop
 		for(String s : countryList) {
 			System.out.println(s);
 		}
-		System.out.println("------------");
 		
-		ArrayList<Object> empData=new ArrayList<Object>();
-		empData.add("Tom");//0
-		empData.add(25);//1
-		empData.add('m');//2
-		empData.add(true);//3
-		empData.add(12.55);//4
-		
-		for(Object ob : empData) {
-			System.out.println(ob);
-		}
 
 	}
 }

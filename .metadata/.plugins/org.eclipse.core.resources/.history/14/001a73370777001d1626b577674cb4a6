@@ -17,8 +17,6 @@ public class ArrayListConcept {
 		//order based/index based array/list/collection
 		//li=0
 		//hi=size-1
-		//size=ar.size()
-		
 		
 		ArrayList ar=new ArrayList();
 		//System.out.println(ar.size());
@@ -64,45 +62,6 @@ public class ArrayListConcept {
 		
 		for(int i=0; i<ar.size(); i++) {
 			System.out.println(ar.get(i));
-		}
-		
-		//ArrayList with Integers
-		ArrayList<Integer> marks=new ArrayList<Integer>();
-		marks.add(100);
-		marks.add(200);
-		
-		System.out.println("------------");
-		
-		//ArrayList with Strings
-		ArrayList<String> countryList=new ArrayList<String>();
-		countryList.add("India");//0
-		countryList.add("UK");//1
-		countryList.add("US");//2
-		countryList.add("Germany");//3
-		
-		System.out.println(countryList.size());
-		//System.out.println(countryList.get(4));IndexOutOfBoundsException
-		
-		//for loop
-		for(int i=0;i<countryList.size(); i++) {
-			System.out.println(countryList.get(i));
-		}
-		System.out.println("------------");
-		//for each loop
-		for(String s : countryList) {
-			System.out.println(s);
-		}
-		System.out.println("------------");
-		
-		ArrayList<Object> empData=new ArrayList<Object>();
-		empData.add("Tom");//0
-		empData.add(25);//1
-		empData.add('m');//2
-		empData.add(true);//3
-		empData.add(12.55);//4
-		
-		for(Object ob : empData) {
-			System.out.println(ob);
 		}
 
 	}

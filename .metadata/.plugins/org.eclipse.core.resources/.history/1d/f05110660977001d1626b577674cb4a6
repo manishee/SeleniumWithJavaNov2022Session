@@ -95,11 +95,11 @@ public class ArrayListConcept {
 		System.out.println("------------");
 		
 		ArrayList<Object> empData=new ArrayList<Object>();
-		empData.add("Tom");//0
-		empData.add(25);//1
-		empData.add('m');//2
-		empData.add(true);//3
-		empData.add(12.55);//4
+		empData.add("Tom");
+		empData.add(25);
+		empData.add('m');
+		empData.add(true);
+		empData.add(12.55);
 		
 		for(Object ob : empData) {
 			System.out.println(ob);
