@@ -1,0 +1,35 @@
+//Dec 12 - 2022
+package SeleniumSessions;
+
+/**
+ * 
+ * @author mchugh
+ *This program is about classes and objects.
+ */
+
+public class Car {
+	
+	//class variable or global variables
+	String name;
+	String color;
+	int price;
+	String model;
+	
+	
+	public static void main(String[] args) {
+
+		//create an object : using new keyword
+		Car c1=new Car();
+		c1.name="BMW";
+		c1.color="Blue";
+		c1.price=80;
+		c1.model="520d";
+		
+		
+		System.out.println(c1.name +" "+c1.color +" "+c1.price +" "+c1.model);
+		
+		
+		
+	}
+
+}
