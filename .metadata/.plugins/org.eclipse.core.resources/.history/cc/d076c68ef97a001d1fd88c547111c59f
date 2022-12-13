@@ -1,0 +1,61 @@
+//Dec 13 - 2022 P1
+package SeleniumSessions;
+/**
+ * 
+ * @author mchugh
+ *This program is about methods/functions 
+ */
+public class FunctionsInJava 
+{
+	
+	//Functions are parallel to each other.
+	//Functions can't be created inside a function.
+	
+	public static void main(String[] args) 
+	{
+		FunctionsInJava obj=new FunctionsInJava();
+		obj.test();
+		obj.total();
+		int s=obj.add();
+		System.out.println(s+100+20);
+		
+		String name=obj.getTrainerName();
+		System.out.println(name);
+		
+	}
+	
+	//1. no input and no return
+	//void -> no return(cannot return any value)
+	public void test() 
+	{
+		System.out.println("Test Method");
+	}
+	
+	public void total() 
+	{
+		System.out.println("Total Method");
+		int a=10;
+		int b=20;
+		int c=a+b;
+		System.out.println(c);
+	}
+	
+	//2.no input and some return
+	
+	public int add() 
+	{
+		System.out.println("Add Method");
+		int x=100;
+		int y=200;
+		int z=x+y;
+		
+		return z;
+	}
+	
+	public String getTrainerName() {
+		System.out.println("Get Trainer Name");
+		String name="Manish";
+		
+		return name;
+	}
+}

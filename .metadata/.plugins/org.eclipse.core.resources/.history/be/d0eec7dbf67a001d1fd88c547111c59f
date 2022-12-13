@@ -1,0 +1,25 @@
+//Dec 13 - 2022 P1
+package SeleniumSessions;
+/**
+ * 
+ * @author mchugh
+ *This program is about methods/functions 
+ */
+public class FunctionsInJava 
+{
+	
+	//Functions are parallel to each other.
+	//Functions can't be created inside a function.
+	
+	public static void main(String[] args) 
+	{
+		FunctionsInJava obj=new FunctionsInJava();
+		obj.test();
+		
+	}
+	
+	public void test() {
+		System.out.println("Test Method");
+	}
+	
+}

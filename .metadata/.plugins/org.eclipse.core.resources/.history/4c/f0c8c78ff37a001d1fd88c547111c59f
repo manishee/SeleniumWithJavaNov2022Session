@@ -37,9 +37,7 @@ public class Person {
 		System.out.println(p2.name + " " + p2.age + " " +p2.gender);
 		System.out.println(p3.name + " " + p3.age + " " +p3.gender);
 		System.out.println("--------");
-		
 		p3=p1;
-		
 		System.out.println(p1.name + " " + p1.age + " " +p1.gender);
 		System.out.println(p2.name + " " + p2.age + " " +p2.gender);
 		System.out.println(p3.name + " " + p3.age + " " +p3.gender);
