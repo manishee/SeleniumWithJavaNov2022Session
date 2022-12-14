@@ -34,15 +34,8 @@ public class FunctionsInJava
 		int marks=obj.getStudentMarks("Anu");
 		System.out.println(marks);
 		
-		//boolean isbrowserlaunched=obj.launchBrowser("ie");
-		//System.out.println(isbrowserlaunched);
-		
-		if(obj.launchBrowser("chrome")) {
-			System.out.println("Start my test cases");
-		}
-		else {
-			System.out.println("sorry there is no browser");
-		}
+		boolean isbrowserlaunched=obj.launchBrowser("ie");
+		System.out.println(isbrowserlaunched);
 	}
 	
 	//1. no input and no return

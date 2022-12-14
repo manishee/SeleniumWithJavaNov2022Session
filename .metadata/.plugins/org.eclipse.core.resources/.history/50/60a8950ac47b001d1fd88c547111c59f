@@ -37,7 +37,7 @@ public class FunctionsInJava
 		//boolean isbrowserlaunched=obj.launchBrowser("ie");
 		//System.out.println(isbrowserlaunched);
 		
-		if(obj.launchBrowser("chrome")) {
+		if(obj.launchBrowser("ie")) {
 			System.out.println("Start my test cases");
 		}
 		else {

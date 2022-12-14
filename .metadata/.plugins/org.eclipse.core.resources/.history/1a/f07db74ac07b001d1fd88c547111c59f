@@ -31,18 +31,7 @@ public class FunctionsInJava
 		String capName=obj.getCapitalName("China");
 		System.out.println(capName);
 		
-		int marks=obj.getStudentMarks("Anu");
-		System.out.println(marks);
-		
-		//boolean isbrowserlaunched=obj.launchBrowser("ie");
-		//System.out.println(isbrowserlaunched);
-		
-		if(obj.launchBrowser("chrome")) {
-			System.out.println("Start my test cases");
-		}
-		else {
-			System.out.println("sorry there is no browser");
-		}
+		obj.getStudentMarks("Kanika");
 	}
 	
 	//1. no input and no return
@@ -139,36 +128,7 @@ public class FunctionsInJava
 		else 
 		{
 			System.out.println("The student not found " + name);
-			return -1;
 		}
 		return marks;
-	}
-	
-	//WAP where a browserName(String) and it launches the browser and returns boolean.
-	
-	public boolean launchBrowser(String browserName) {
-		
-		System.out.println("launching browser " + browserName);
-		boolean flag=false;
-		
-		switch (browserName) {
-		
-		case "chrome":
-			System.out.println("launching chrome");
-			flag=true;
-			break;
-		case "firefox":
-			System.out.println("launching firefox");
-			flag=true;
-			break;
-		case "safari":
-			System.out.println("launching safari");
-			flag=true;
-			break;
-		default:
-			System.out.println("Browser is not found " + browserName);
-			break;
-		}
-		return flag;
 	}
 }
