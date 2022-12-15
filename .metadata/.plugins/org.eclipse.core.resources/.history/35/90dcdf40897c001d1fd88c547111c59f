@@ -1,0 +1,50 @@
+//Dec 15-2022 - P1
+package SeleniumSessions;
+
+/**
+ * 
+ * @author mchugh
+ *this program is about returning array and arraylist
+ */
+public class Employee 
+{
+
+	public static void main(String[] args) 
+	{
+		
+		Employee e1=new Employee();
+		
+		String assets_sheetal[]=e1.getEmployeeAssets("Sheetal");
+		System.out.println("Total Assets " + assets_sheetal.length);//4
+		
+		for(String s : assets_sheetal) {
+			System.out.println(s);
+		}
+	}
+
+	//WAP where an emp name is passed and it returns the employee asset list
+	
+	public String[] getEmployeeAssets(String empName) 
+	{
+		System.out.println("Emp name is " +empName);
+		
+		String asset[]=new String[4];
+		
+		if(empName.equals("Sheetal")) {
+			asset[0]="Macbook";
+			asset[1]="Mac Mouse";
+			asset[2]="Mac keyboard";
+			asset[3]="iPhone X";
+		}
+		
+		else if(empName.equals("Kiran"))
+		{
+			asset[0]="Windows";
+			asset[1]="Win Mouse";
+			asset[2]="Win keyboard";
+			asset[3]="iPhone 12";
+		}
+		
+		return asset;
+	}
+}

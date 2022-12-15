@@ -1,0 +1,86 @@
+//Dec 15-2022 - P1
+package SeleniumSessions;
+
+import java.util.ArrayList;
+
+/**
+ * 
+ * @author mchugh
+ *this program is about returning array and arraylist
+ */
+public class Employee 
+{
+
+	public static void main(String[] args) 
+	{
+		
+		Employee e1=new Employee();
+		
+		String assets_sheetal[]=e1.getEmployeeAssets("Kiran");
+		System.out.println("Total Assets " + assets_sheetal.length);//4
+		
+		for(String s : assets_sheetal) {
+			System.out.println(s);
+		}
+		System.out.println("------------------");
+		ArrayList<String> orderList_Tom=e1.getEmpOrders("George");
+		System.out.println("Total Orders " + orderList_Tom.size());
+		
+		for(String b : orderList_Tom) {
+			System.out.println(b);
+		}
+		
+	}
+
+	//WAP where an emp name is passed and it returns the employee asset list
+	
+	public String[] getEmployeeAssets(String empName) 
+	{
+		System.out.println("Emp name is " +empName);
+		
+		String asset[]=new String[4];
+		
+		if(empName.equals("Sheetal")) {
+			asset[0]="Macbook";
+			asset[1]="Mac Mouse";
+			asset[2]="Mac keyboard";
+			asset[3]="iPhone X";
+		}
+		
+		else if(empName.equals("Kiran"))
+		{
+			asset[0]="Windows";
+			asset[1]="Win Mouse";
+			asset[2]="Win keyboard";
+			asset[3]="iPhone 12";
+		}
+		
+		return asset;
+		
+	}
+	//WAP where emp name is passed and it returns the orders that emp has placed.
+	
+	public ArrayList<String> getEmpOrders(String empName) {
+	
+		System.out.println("Total orders for " + empName);
+		
+		ArrayList<String> orderList=new ArrayList<String>();
+		
+		if(empName.equals("Tom")) {
+			orderList.add("Iphone");
+			orderList.add("Laptop");
+			orderList.add("Tshirt");
+			orderList.add("Shoes");
+		}
+		else if(empName.equals("Steven")) {
+			orderList.add("Iphone");
+			orderList.add("IPhone Cable");
+		}
+		
+		else {
+			System.out.println("This emp " + empName + " is not found, please pass the correct name");
+		}
+		return orderList;
+	}
+	
+}
