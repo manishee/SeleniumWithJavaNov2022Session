@@ -1,0 +1,39 @@
+//Dec 16-2022 - P1
+package SeleniumSessions;
+/**
+ * 
+ * @author mchugh
+ *This program is about static and non-static variables and methods
+ */
+
+
+public class CarDesign 
+{
+	
+	//Class variables or Global variables
+	String name;
+	int price;
+	String model;
+	int wheels;
+	
+	public void start()
+	{
+		System.out.println("Car starts");
+	}
+	
+	public void stop() 
+	{
+		System.out.println("Car stops");
+	}
+	
+	public void run() 
+	{
+		System.out.println("Car runs");
+	}
+	
+	public static void main(String[] args) 
+	{
+
+	}
+
+}

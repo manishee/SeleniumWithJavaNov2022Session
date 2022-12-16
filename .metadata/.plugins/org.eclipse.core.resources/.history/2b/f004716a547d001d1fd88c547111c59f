@@ -1,0 +1,60 @@
+//Dec 16-2022 - P1
+package SeleniumSessions;
+/**
+ * 
+ * @author mchugh
+ *This program is about static and non-static variables and methods
+ */
+
+
+public class CarDesign 
+{
+	
+	//Class variables or Global variables
+	//static members = static variables + static methods
+	String name;
+	int price;
+	String model;
+	static int wheels;
+	
+	public void start()
+	{
+		System.out.println("Car starts");
+	}
+	
+	public void stop() 
+	{
+		System.out.println("Car stops");
+	}
+	
+	public static void run() 
+	{
+		System.out.println("Car runs");
+	}
+	
+	public static void main(String[] args) 
+	{
+		//how to call static members
+		//1. call them directly. no need to create the object.
+		
+		run();
+		wheels=4;
+		System.out.println(wheels);
+		
+		//2. call by class name
+		CarDesign.wheels=5;
+		System.out.println(wheels);
+		CarDesign.run();
+		
+		CarDesign c1=new CarDesign();
+		c1.name="BMW";
+		c1.price=80;
+		c1.model="720d";
+		
+		System.out.println(c1.name +" "+ c1.price +" "+c1.model+" "+CarDesign.wheels);
+		
+		
+		
+	}
+
+}
