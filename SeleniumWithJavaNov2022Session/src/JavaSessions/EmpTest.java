@@ -1,0 +1,31 @@
+//Dec 16-2022-p2
+package JavaSessions;
+
+public class EmpTest {
+	String name;
+	int age;
+	boolean status;
+	double salary;
+	static String lastName;
+	
+	public static void main(String[] args) 
+	{
+		
+		final int total=10;
+		//total=20;
+		
+		EmpTest e1=new EmpTest();
+		System.out.println(e1.name);//null
+		System.out.println(e1.age);//0
+		System.out.println(e1.status);//);false
+		System.out.println(e1.salary);//0.0
+		System.out.println(lastName);//null
+		
+		System.out.println(total);
+		
+		final int days=7;
+		//days=10;
+		System.out.println(100 * days * 200);
+	}
+
+}

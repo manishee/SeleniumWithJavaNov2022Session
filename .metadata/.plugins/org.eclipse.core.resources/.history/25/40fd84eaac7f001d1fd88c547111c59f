@@ -1,0 +1,42 @@
+//Dec 19 - 2022 - P1
+package SeleniumSessions;
+/**
+ * 
+ * @author mchugh
+ * This program is about method overloading
+ */
+public class MethodOverloading 
+{
+
+	public void test() 
+	{
+		System.out.println("test method ... ");
+	}
+	
+	public void test(int i) 
+	{
+		System.out.println(i);
+	}
+	
+	public void test(int i, int k) 
+	{
+		System.out.println(i+k);
+	}
+	
+	public void test(String p, int k)
+	{
+		System.out.println(p+k);
+	}
+	
+	public void test(int k, String p) 
+	{
+		System.out.println(k+p);
+	}
+	
+	public static void main(String[] args) 
+	{
+		MethodOverloading obj=new MethodOverloading();
+		obj.test();
+	}
+
+}
