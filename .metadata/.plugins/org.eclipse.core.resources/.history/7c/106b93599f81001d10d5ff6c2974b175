@@ -5,7 +5,7 @@ package ConstructorConcept;
 /**
  *  
  * @author mchugh
- * this program is about global variables initialization using constructors
+ *this program is about global variables initialization using constructors
  */
 
 	public class Person {

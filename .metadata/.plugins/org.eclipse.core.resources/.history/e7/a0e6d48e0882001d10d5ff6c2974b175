@@ -1,0 +1,29 @@
+//De 22-2022-p1
+package ConstructorConcept;
+
+import java.util.ArrayList;
+
+public class Product {
+
+	String name;
+	double price;
+	String color;
+	ArrayList<String> sellerList;
+	
+	public Product(String name, int price) 
+	{
+		this.name=name;
+		this.price=price;
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) 
+	{
+		Product p1=new Product("Iphone", 800);
+		System.out.println(p1.name + " " +p1.price);
+	}
+
+}

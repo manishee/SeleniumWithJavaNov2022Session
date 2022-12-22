@@ -1,0 +1,44 @@
+//De 22-2022-p1
+package ConstructorConcept;
+
+import java.util.ArrayList;
+
+public class Product {
+
+	String name;
+	double price;
+	String color;
+	ArrayList<String> sellerList;
+	
+	public Product(String name, int price) 
+	{
+		this.name=name;
+		this.price=price;
+	}
+	
+	public Product(String name, double price, String color, ArrayList<String> sellerList) 
+	{
+	
+		this.name = name;
+		this.price = price;
+		this.color = color;
+		this.sellerList = sellerList;
+	}
+
+	public static void main(String[] args) 
+	{
+		Product p1=new Product("Iphone", 800);
+		System.out.println(p1.name + " " +p1.price);
+		
+		ArrayList<String> appleSellerList=new ArrayList<String>();
+		appleSellerList.add("Neon Enterprise Inc.");
+		appleSellerList.add("Xeon Enterprise Inc.");
+		appleSellerList.add("Hexa IT");
+		
+		
+		Product p2=new Product("Apple Macbook", 2.3,"Grey",appleSellerList);
+		System.out.println(p2.name + " " +p2.price+ " "+ p2.color+ " "+p2.sellerList);
+		
+	}
+
+}

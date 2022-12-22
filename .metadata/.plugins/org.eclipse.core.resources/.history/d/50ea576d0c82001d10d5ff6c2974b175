@@ -1,0 +1,16 @@
+//Dec 22-2022_p3
+package OOP_Encapsulation;
+
+/**
+ * 
+ * @author mchugh
+ * This Program is about Encapsulation and data hiding.
+ */
+public class Employee {
+
+	String name;
+	int id;
+	int age;
+	double salary;
+
+}

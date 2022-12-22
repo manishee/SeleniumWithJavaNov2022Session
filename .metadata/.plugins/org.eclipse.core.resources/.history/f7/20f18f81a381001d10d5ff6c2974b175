@@ -1,0 +1,19 @@
+package ConstructorConcept;
+
+public class Product {
+	String name;
+	int age;
+	
+	
+	public String test(String name) {
+		
+		return name;
+	}
+	
+	public static void main(String[] args) {
+		Product p1=new Product();
+		p1.name="Manish";
+		System.out.println(p1.name);
+	}
+
+}
