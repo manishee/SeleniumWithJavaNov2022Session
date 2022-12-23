@@ -8,6 +8,8 @@ package OOP_Encapsulation;
  */
 
 //class members : (non-static) class variables + class methods
+//data hiding: is part of Encapsulation
+//hiding the private data members of class and give access via public getter/ setter methods
 public class Employee {
 
 	private String name;
