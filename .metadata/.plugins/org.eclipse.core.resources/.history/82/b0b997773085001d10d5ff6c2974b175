@@ -1,0 +1,19 @@
+//Dec 26-2022-P4
+package OOP_Inheritance;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+
+		BMW b=new BMW();
+		b.refuel();
+		b.stop();
+		b.start();
+		b.autoParking();
+	
+		
+		
+		
+	}
+
+}
