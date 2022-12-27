@@ -11,6 +11,7 @@ public class CarTest {
 		b.start();//Overridden methods
 		b.autoParking();//Independent method of BMW
 		BMW.wheels();
+		b.engine();
 		
 		
 		Car c=new Car();
@@ -18,7 +19,25 @@ public class CarTest {
 		c.stop();
 		c.refuel();
 		Car.wheels();
-	
+		c.engine();
+		
+		//Top casting
+		Car c1=new BMW();//child class object can be referred by parent class ref variable
+		c1.start();
+		c1.stop();
+		c1.refuel();
+		//c1.autoparking(); ==> ref type check
+		
+		//Down casting
+		//BMW b1=(BMW) new Car();
+		
+		Vehicle v1=new Vehicle();
+		v1.engine();
+		
+		
+		
+		
+			
 		
 		
 		
