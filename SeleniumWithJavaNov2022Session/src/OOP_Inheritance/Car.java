@@ -10,7 +10,7 @@ public class Car extends Vehicle{
 		System.out.println("Car--price");
 		return "Car price is 10L";
 	}
-	public final void start() {
+	public void start() {
 		System.out.println("Car---starts");
 	}
 	

@@ -1,0 +1,20 @@
+//Dec 28-2022-P1
+package OOP_Interface;
+
+public class TestHospital {
+
+	public static void main(String[] args) {
+
+		FortisHospital fh=new FortisHospital();
+		fh.cardioServices();
+		fh.emergencyServices();
+		fh.ENTServices();
+		fh.oncologyServices();
+		fh.physioServices();
+		fh.pediaServices();
+		fh.optServices();
+		fh.neuroServices();//independent
+		
+	}
+
+}
