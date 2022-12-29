@@ -5,6 +5,7 @@ public interface IndiaMedical {
 
 	public void oncologyServices();
 	public void cardioServices();
+	public void emergencyServices();
 	
 	
 }

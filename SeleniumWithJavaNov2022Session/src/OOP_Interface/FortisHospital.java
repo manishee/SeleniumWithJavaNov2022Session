@@ -63,7 +63,11 @@ public class FortisHospital extends CentralizedHospital
 	public void neuroServices() {
 		System.out.println("FH--neuroServices");
 	}
-
+	@Override
+	public void bloodBank() {
+		
+	}
+	
 	
 	
 }
