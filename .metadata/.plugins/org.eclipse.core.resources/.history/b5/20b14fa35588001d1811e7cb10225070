@@ -1,0 +1,25 @@
+//Dec 30-2022-P2
+package ExceptionHandling;
+
+public class TryCatchPart2 {
+	String name="Tom";
+	public static void main(String[] args) {
+
+		System.out.println("Hello Testing");
+		
+		TryCatchPart2 obj=new TryCatchPart2();
+		
+		System.out.println(obj.name);
+		obj=null;
+		
+		try {
+		int i=9/0;	
+		System.out.println(obj.name);
+		}
+		catch(NullPointerException e) {
+			e.printStackTrace();
+		}
+		System.out.println("NPE was coming");
+	}
+
+}
