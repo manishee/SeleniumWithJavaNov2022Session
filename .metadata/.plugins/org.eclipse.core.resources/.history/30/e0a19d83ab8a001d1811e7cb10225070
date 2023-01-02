@@ -1,0 +1,15 @@
+//Jan2-2023-P1
+package JavaSessions;
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+
+		String str="This is my first java code and I am so happy";
+		System.out.println(str.length());
+		System.out.println("Li=" +0 );
+		
+		
+	}
+
+}
