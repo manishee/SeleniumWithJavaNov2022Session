@@ -84,15 +84,67 @@ public class StringManipulation {
 		System.out.println(lanugauge[0]);
 		System.out.println(lanugauge[2]);
 		
+		System.out.println("-------");
 		for(String ele : lanugauge) {
 			System.out.println(ele);
+		
+		System.out.println("-------");
+		String empData="Neha;Kashyap;25;London;UK;42342;IBM";	
+		String emp[]=empData.split(";");
+		System.out.println(emp.length);
+		System.out.println(emp[0]);
+		System.out.println(emp[3]);
+		
+		System.out.println("-------");
+		for(String element : emp) {
+			System.out.println(element);
+		}
+		System.out.println("-------");
+		String test="xXtestingxXXSeleniumXxXCucumber";
+		String tester[]=test.split("xX");
+		
+		System.out.println("0th---->" + tester[0]);
+		System.out.println("1st---->" + tester[1]);
+		System.out.println("2nd---->" + tester[2]);
+		System.out.println("3rd---->" + tester[3]);
 		}
 		
+		//Substring:
+		String main="Your total amount is 3000";
+		System.out.println(main.substring(5));
+		System.out.println(main.substring(5, 11));//endIndex-1
 		
+		System.out.println(main.substring(main.indexOf("is"), main.length()));
+		System.out.println(main.substring(main.indexOf("is")+3, main.length()));
+		String amount=main.substring(main.indexOf("is")+3);
 		
+		System.out.println(amount+50+10);//30005010
+		System.out.println(amount+(50+10));//300060
 		
+		//String to int: using ParseInt from Integer class
+		int amountVal=Integer.parseInt(amount);
+		System.out.println(amountVal+50+10);
+		
+		StringManipulation sm=new StringManipulation();;
+		sm.stringT().stringY().stringZ();
 		
 		
 	}
-
+	
+		public StringManipulation stringT() {
+			System.out.println("inside stringT");
+			return this;//returns the object of the current class
+		}
+		
+		public StringManipulation stringY() {
+			System.out.println("inside stringY");
+			return this;
+		}
+	
+		public void stringZ() {
+			System.out.println("inside stringZ");
+		}
+	
+	
 }
+
