@@ -1,0 +1,15 @@
+//Jan 4-2023-P1
+package JavaSessions;
+
+public class DataConversion {
+
+	public static void main(String[] args) {
+
+		//String to int
+		String x="100";
+		System.out.println(x);
+		
+		
+	}
+
+}
