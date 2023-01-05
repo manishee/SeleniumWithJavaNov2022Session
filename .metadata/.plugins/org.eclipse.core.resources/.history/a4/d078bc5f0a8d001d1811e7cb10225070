@@ -1,0 +1,18 @@
+//Jan 5-2023-P4
+package JavaSessions;
+
+public class FinalizeMethodConcept {
+
+	public static void main(String[] args) {
+
+		
+		System.gc();
+		
+	}
+	
+	
+	public void finalize() {
+		System.out.println("this is my finalize method");
+	}
+
+}
