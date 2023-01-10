@@ -11,6 +11,10 @@ public class HR extends Emp{
 		HR hr=new HR();
 		System.out.println(hr.salary);
 		System.out.println(hr.name);
+		//System.out.println(hr.age);private
+		//System.out.println(hr.c);default
+		
+		
 
 	}
 
