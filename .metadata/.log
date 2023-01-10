@@ -9573,3 +9573,8 @@ java.lang.Error: SWT Resource was not properly disposed
 !MESSAGE Save operation warnings.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2023-01-10 12:24:41.674
 !MESSAGE The project description file (.project) for 'SeleniumWithJavaJan2023Session' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 2 2023-01-10 12:30:08.929
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-01-10 12:30:08.929
+!MESSAGE The project description file (.project) for 'SeleniumWithJavaJan2023Session' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
