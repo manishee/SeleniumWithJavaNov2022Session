@@ -4,6 +4,12 @@ package SeleniumSessions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+
 
 public class WebDriverBasics {
 
@@ -16,9 +22,10 @@ public class WebDriverBasics {
 				//WebDriver is an interface
 				
 				//Top Casting
+				
 				WebDriver driver=new ChromeDriver();// launch the chrome browser		
 				
-				driver.get("https://ndtv.com");// launch the URL
+				driver.get("https://google.com");// launch the URL
 				
 				String title=driver.getTitle(); //get page title
 				System.out.println(title);
@@ -36,16 +43,22 @@ public class WebDriverBasics {
 				System.out.println(currentURL);
 				
 				if(currentURL.contains("Google")) {
-					System.out.println("correct title");
+					System.out.println("Correct Title");
 				}
 				else {
-					System.out.println("in correct title");
+					System.out.println("Incorrect Title");
 				}
 				
 				//System.out.println(driver.getPageSource());
 				
-				//driver.quit();close the browser
-				driver.close();
+				driver.quit();//NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+				//driver.close();//NoSuchSessionException: invalid session id
+				
+				driver=new ChromeDriver();
+				driver.get("https://www.google.com");
+				System.out.println("-----");
+				String title1=driver.getTitle();
+				System.out.println("title1");
 		
 	}
 
