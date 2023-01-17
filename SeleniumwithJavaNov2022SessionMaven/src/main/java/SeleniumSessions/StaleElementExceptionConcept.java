@@ -10,12 +10,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class StaleElementExceptionConcept {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();//launch the broswer
 		
 		driver.get(("https://www.orangehrm.com/contact-sales/"));// launch URL
+	
 		
 		WebElement url_ele=driver.findElement(By.id("Form_getForm_FullName"));//v1-e1
 		url_ele.sendKeys("manish");//send keys -> type in a text box/field
@@ -26,8 +27,6 @@ public class StaleElementExceptionConcept {
 		url_ele.sendKeys("manish");
 		//StaleElementReferenceException: stale element reference: element is not attached to the page document
 		
-	
-	
 	}
 
 }
