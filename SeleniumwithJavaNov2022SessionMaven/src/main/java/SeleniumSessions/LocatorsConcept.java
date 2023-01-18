@@ -53,18 +53,18 @@ public class LocatorsConcept {
 //		getElement(loginButton).click();
 		
 		//5th:
-//		doSendKeys(email, "manish@gmail.com");
-//		doSendKeys(pwd, "chugh123");
-//		doClick(loginButton);
+		doSendKeys(email, "manish@gmail.com");
+		doSendKeys(pwd, "chugh123");
+		doClick(loginButton);
 //		
 		//6th:
-		String email_id="username";
-		String pwd_id="password";
-		String loginButton_id="loginBtn";
-		
-		doSendKeys(getLocator(email_id), "manish@gmail.com");
-		doSendKeys(getLocator(pwd_id), "chugh123");
-		doClick(getLocator(loginButton_id));
+//		String email_id="username";
+//		String pwd_id="password";
+//		String loginButton_id="loginBtn";
+//		
+//		doSendKeys(getLocator(email_id), "manish@gmail.com");
+//		doSendKeys(getLocator(pwd_id), "chugh123");
+//		doClick(getLocator(loginButton_id));
 		
 	}
 	
