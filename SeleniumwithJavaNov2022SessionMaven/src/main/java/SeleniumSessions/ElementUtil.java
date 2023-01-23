@@ -42,5 +42,19 @@ public class ElementUtil {
 	public void doClick(By locator) {
 		getElement(locator).click();
 	}
-
+	/**
+	 * 
+	 * @param locator
+	 * @return this returns the text of an element
+	 */
+	public String doGetText(By locator) {
+		return getElement(locator).getText();
+	}
+	/**	
+	 * @param locator
+	 * @return returns true/false if an element is present or not
+	 */
+	public boolean doIsDisplayed(By locator) {
+		return getElement(locator).isDisplayed();
+}
 }

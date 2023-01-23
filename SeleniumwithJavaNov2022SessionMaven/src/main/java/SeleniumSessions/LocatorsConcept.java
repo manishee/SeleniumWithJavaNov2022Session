@@ -17,7 +17,7 @@ public class LocatorsConcept {
 		driver.get("https://app.hubspot.com/login");
 		Thread.sleep(3000);//3000 milliseconds = 3 seconds
 		
-		//create the webelement + action (click, sendkeys, get text)
+		//create the webelement + action (click, sendkeys, get text)			
 		
 		//1. id: unique locator
 		//1st
