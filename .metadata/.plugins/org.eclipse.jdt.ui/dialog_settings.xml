@@ -4,6 +4,12 @@
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-17"/>
 	<item key="org.eclipse.jdt.ui.lastextjar" value="/Users/mchugh/Downloads/selenium-java-4.7.2/lib"/>
+	<item key="org.eclipse.jdt.uiformatter_page.modify_dialog_tab_page.last_focus_index" value="-1"/>
+	<item key="clean_up_save_particpant_modify_dialog.last_focus" value="0"/>
+	<item key="clean_up_save_particpant_modify_dialog.preferred_width" value="939"/>
+	<item key="clean_up_save_particpant_modify_dialog.preferred_height" value="988"/>
+	<item key="clean_up_save_particpant_modify_dialog.preferred_x" value="1300"/>
+	<item key="clean_up_save_particpant_modify_dialog.preferred_y" value="25"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
