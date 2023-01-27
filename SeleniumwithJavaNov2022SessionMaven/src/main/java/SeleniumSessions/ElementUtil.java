@@ -7,6 +7,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class ElementUtil {
 	WebDriver driver;
@@ -102,6 +103,7 @@ public class ElementUtil {
 
 	/**
 	 * This method is to click any element from a list.
+	 *
 	 * @param locator
 	 * @param linkText
 	 */
@@ -114,5 +116,44 @@ public class ElementUtil {
 				break;
 			}
 		}
+
+	}
+
+	// **************************** Drop Down Utils *******************************
+	/**
+	 * This method selects an element from the drop down using visible text
+	 *
+	 * @param locator
+	 * @param text
+	 */
+	public void doSelectDropDownByVisibleText(By locator, String text) {
+		WebElement ele = getElement(locator);
+		Select select = new Select(ele);
+		select.selectByVisibleText(text);
+	}
+
+	/**
+	 * This method selects an element from the drop down using index
+	 *
+	 * @param locator
+	 * @param index
+	 */
+	public void doSelectDropDownByIndex(By locator, int index) {
+		WebElement ele = getElement(locator);
+		Select select = new Select(ele);
+		select.selectByIndex(index);
+	}
+
+	/**
+	 * This method selects an element from the drop down using value
+	 *
+	 * @param locator
+	 * @param value
+	 */
+	public void doSelectDropDownByValue(By locator, String value) {
+		WebElement ele = getElement(locator);
+		Select select = new Select(ele);
+		select.selectByValue(value);
+	}
 
 }

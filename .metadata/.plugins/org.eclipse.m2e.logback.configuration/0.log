@@ -1353,3 +1353,61 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2023-01-25 10:30:24,029 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
 2023-01-25 10:30:24,031 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-01-25 10:30:24,031 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-26 20:05:47,629 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-01-26 20:05:49,170 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-26 20:05:49,171 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-26 20:05:49,173 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-26 20:05:49,174 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-26 21:29:34,878 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-26 21:29:34,879 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-26 21:29:34,881 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-26 21:29:34,882 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:03:36,313 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-27 09:05:26,660 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:05:26,661 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:05:26,664 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:05:26,664 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:13:54,783 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:13:54,783 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:13:54,784 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:13:54,785 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:15:08,498 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:15:08,498 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:15:08,500 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:15:08,500 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:15:34,285 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:15:34,285 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:15:34,287 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:15:34,287 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:17:28,709 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:17:28,709 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:17:28,710 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:17:28,710 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:18:09,786 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:18:09,786 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:18:09,787 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:18:09,787 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:21:51,626 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:21:51,626 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:21:51,627 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:21:51,627 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:33:51,846 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:33:51,846 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:33:51,849 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:33:51,849 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:34:06,236 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:34:06,236 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:34:06,238 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:34:06,238 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:34:37,258 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:34:37,258 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:34:37,258 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:34:37,259 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:35:09,420 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:35:09,421 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:35:09,424 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:35:09,424 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-01-27 09:40:07,443 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:40:07,443 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-01-27 09:40:07,444 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-27 09:40:07,444 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
