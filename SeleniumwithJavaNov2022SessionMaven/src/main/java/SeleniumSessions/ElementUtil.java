@@ -35,6 +35,16 @@ public class ElementUtil {
 	}
 
 	/**
+	 * This method returns a list of Web Elements
+	 *
+	 * @param locator
+	 * @return
+	 */
+	public List<WebElement> getElements(By locator) {
+		return driver.findElements(locator);
+	}
+
+	/**
 	 * This method types in the locator mentioned here
 	 *
 	 * @param locator
@@ -108,7 +118,7 @@ public class ElementUtil {
 	 * @param linkText
 	 */
 	public void doClickFromList(By locator, String linkText) {
-		List<WebElement> footerList = driver.findElements(locator);
+		List<WebElement> footerList = getElements(locator);
 		for (int i = 0; i < footerList.size(); i++) {
 			String text = footerList.get(i).getText();
 			if (text.equals(linkText)) {
