@@ -166,4 +166,45 @@ public class ElementUtil {
 		select.selectByValue(value);
 	}
 
+	/**
+	 *
+	 * @param locator
+	 * @return This method returns all options belonging to this select tag
+	 */
+
+	public List<String> doGetDropDownOptions(By locator) {
+
+		List<String> optionsvalueList = new ArrayList<String>();
+
+		Select select = new Select(getElement(locator));
+		List<WebElement> optionsList = select.getOptions();
+
+		for (WebElement e : optionsList) {
+			optionsvalueList.add(e.getText());
+		}
+
+		return optionsvalueList;
+	}
+
+	/**
+	 * This method clicks on a value in a drop down without using select class.
+	 *
+	 * @param locator
+	 * @param value
+	 */
+	public void selectDropDownValueWithoutSelectClass(By locator, String value) {
+
+		List<WebElement> countryList = getElements(locator);
+
+		for (WebElement e : countryList) {
+
+			String text = e.getText();
+
+			if (text.equals(value)) {
+				e.click();
+				break;
+			}
+		}
+
+	}
 }

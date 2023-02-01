@@ -22,6 +22,7 @@ public class SelectClassDropDown {
 //		drop down -> HTML TAG Select
 //		We have to use Select class in Selenium.
 //		WebElement country_ele = driver.findElement(By.id("Form_getForm_Country"));
+
 //		Select select = new Select(country_ele);
 //		select.selectByVisibleText("Zaire");
 //		select.selectByIndex(15);
