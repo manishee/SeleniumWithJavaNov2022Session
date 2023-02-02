@@ -187,6 +187,7 @@ public class ElementUtil {
 	}
 
 	/**
+	 *
 	 * This method clicks on a value in a drop down without using select class.
 	 *
 	 * @param locator

@@ -45,7 +45,6 @@ public class DropDownValueWithoutSelectClass {
 	public static void selectDropDownValueWithoutSelectClass(By locator, String value) {
 
 		List<WebElement> countryList = driver.findElements(locator);
-		System.out.println(countryList.size());
 
 		for (WebElement e : countryList) {
 
