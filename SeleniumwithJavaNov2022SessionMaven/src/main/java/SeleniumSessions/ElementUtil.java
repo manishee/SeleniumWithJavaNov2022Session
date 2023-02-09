@@ -7,6 +7,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class ElementUtil {
@@ -61,6 +62,50 @@ public class ElementUtil {
 	 */
 	public void doClick(By locator) {
 		getElement(locator).click();
+	}
+
+	/**
+	 * This method used Actions class to write/type in a element
+	 *
+	 * @param locator
+	 * @param value
+	 */
+	public void doActionsSendKeys(By locator, String value) {
+		Actions action = new Actions(driver);
+		action.sendKeys(getElement(locator), value).perform();
+	}
+
+	/**
+	 * This method uses Actions class to click an element at a specified locator
+	 *
+	 * @param locator
+	 */
+	public void doActionsClick(By locator) {
+		Actions action = new Actions(driver);
+		action.click(getElement(locator)).perform();
+	}
+
+	/**
+	 * This method uses Actions class and Move to Element method to write/type in a
+	 * element
+	 *
+	 * @param locator
+	 * @param value
+	 */
+	public void doSendKeysWithMoveToElement(By locator, String value) {
+		Actions action = new Actions(driver);
+		action.moveToElement(getElement(locator)).sendKeys(value).build().perform();
+	}
+
+	/**
+	 * This method uses Actions class and Move to Element method to click an element
+	 * at a specified locator
+	 *
+	 * @param locator
+	 */
+	public void doClickWithMoveToElement(By locator) {
+		Actions action = new Actions(driver);
+		action.moveToElement(getElement(locator)).click().build().perform();
 	}
 
 	/**
