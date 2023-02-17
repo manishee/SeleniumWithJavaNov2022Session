@@ -14,15 +14,23 @@ public class JavaScriptExecutorConcept {
 
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://app.hubspot.com/login");
-
+		driver.get("https://www.freshworks.com/");
+		driver.manage().window().maximize();
 		JavaScriptUtil jsUtil = new JavaScriptUtil(driver);
+		Thread.sleep(2000);
+		// jsUtil.scrollPageDown();
+//		jsUtil.scrollPageDown("500");
+//		Thread.sleep(2000);
+//		jsUtil.scrollPageUp();
+
+		WebElement learnHow = driver.findElement(By.linkText("Learn how"));
+		jsUtil.scrollIntoView(learnHow);
 
 		// driver.getTitle();
 		// String text = jsUtil.getTitleByJS();
 		// System.out.println(text);
 
-		Thread.sleep(2000);
+		// Thread.sleep(2000);
 
 		// driver.navigate().refresh();
 		// jsUtil.refreshBrowserByJS();
@@ -33,15 +41,15 @@ public class JavaScriptExecutorConcept {
 //		System.out.println(pageInnerText);
 //
 
-		WebElement signUpLink = driver.findElement(By.linkText("Sign up"));
+		// WebElement signUpLink = driver.findElement(By.linkText("Sign up"));
 //		jsUtil.clickElementByJS(signUpLink);
 
 		// jsUtil.sendKeysUsingWithId("username", "manish@gmail.com");
 
 		// jsUtil.drawBorder(signUpLink);
 
-		WebElement loginForm = driver.findElement(By.id("hs-login"));
-		jsUtil.drawBorder(loginForm);
+		// WebElement loginForm = driver.findElement(By.id("hs-login"));
+		// jsUtil.drawBorder(loginForm);
 	}
 
 }
