@@ -61,6 +61,31 @@ public class CustomXPath {
 		// h2[contains(text(), 'Trusted by 50,000+ businesses')]
 		// h2[contains(text(), 'Trusted by 50,000+')]
 		// h2[contains(text(), 'by 50,000+')]
+		// a[contains(text(), 'Sign Up')]
+		// a[contains(text(), 'Up')]
+		// a[contains(text(), ' Up')]
+
+		// input[contains(@type, 'text') and @name='username']
+		// input[contains(@type, 'submit') and contains(@value, 'Login')]
+
+		// * -- total nodes/elements in HTML DOM - 309 elements
+		// input - 3 elements
+		// *[@name='username']
+		// input[@name='username']
+
+		// parent to child:
+		// div[@class='input-group']/input[@name='username']
+		// div[@class='input-group']//input[@name='username']
+
+		// div//div -->509 (direct + indirect child)
+		// div/div -->458 direct child
+
+		// child to parent:
+		// backward tranversing in xpath
+		// input[@name='username']/..
+		// input[@name='username']/../../../../../../..
+
+		// input[@name='username']//parent::div
 
 	}
 
