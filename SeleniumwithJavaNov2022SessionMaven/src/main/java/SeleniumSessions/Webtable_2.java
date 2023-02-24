@@ -20,9 +20,17 @@ public class Webtable_2 {
 //		String checkbox_xpath = "//*[text()='Selenium']//parent::td//parent::tr//input[@type='checkbox']";
 //		driver.findElement(By.xpath(checkbox_xpath)).click();
 
+//		String text = driver.findElement(By.xpath("//*[text()='Coded UI']//parent::td//following-sibling::td"))
+//				.getText();
+//		System.out.println(text);
+
 		selectCheckbox("Selenium");
 		selectCheckbox("QTP");
 		selectCheckbox("Coded UI");
+
+		System.out.println(getText("Selenium"));
+		System.out.println(getText("QTP"));
+		System.out.println(getText("Coded UI"));
 
 	}
 
@@ -31,4 +39,9 @@ public class Webtable_2 {
 		driver.findElement(By.xpath(checkbox_xpath)).click();
 	}
 
+	public static String getText(String courseName) {
+		String text = driver
+				.findElement(By.xpath("//*[text()='" + courseName + "']//parent::td//following-sibling::td")).getText();
+		return text;
+	}
 }

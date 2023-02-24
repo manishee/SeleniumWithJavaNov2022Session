@@ -16,6 +16,7 @@ public class JavaScriptExecutorConcept {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.freshworks.com/");
 		driver.manage().window().maximize();
+
 		JavaScriptUtil jsUtil = new JavaScriptUtil(driver);
 		Thread.sleep(2000);
 		// jsUtil.scrollPageDown();
