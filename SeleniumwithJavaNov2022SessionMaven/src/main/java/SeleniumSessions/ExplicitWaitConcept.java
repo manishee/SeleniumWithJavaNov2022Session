@@ -29,11 +29,13 @@ public class ExplicitWaitConcept {
 		// Thread.sleep(10000);
 		// driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		// WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, 10, 200);
 		// wait.until(ExpectedConditions.titleContains("Login"));
 		wait.until(ExpectedConditions.titleIs("HubSpot Login"));
-//Expected condition failed: waiting for title to be "Hubspot Login". Current title:
-//"HubSpot Login" (tried for 10 second(s) with 500 milliseconds interval)
+		// Expected condition failed: waiting for title to be "Hubspot Login". Current
+		// title:
+		// "HubSpot Login" (tried for 10 second(s) with 500 milliseconds interval)
 
 		System.out.println(driver.getTitle());
 

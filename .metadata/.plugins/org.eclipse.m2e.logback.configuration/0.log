@@ -2620,3 +2620,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2023-02-28 09:56:17,480 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
 2023-02-28 09:56:17,482 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-02-28 09:56:17,482 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
+2023-02-28 19:55:19,729 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 19:55:19,730 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/main/resources
+2023-02-28 19:55:19,732 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 19:55:19,733 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/SeleniumwithJavaNov2022SessionMaven/src/test/resources
