@@ -21,6 +21,7 @@ public class ExplicitWaitConcept {
 		// its a dynamic wait
 		// its a custom wait for a specific web element
 		// not a global wait
+		// can be applied for non web elements
 
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
@@ -35,7 +36,8 @@ public class ExplicitWaitConcept {
 		wait.until(ExpectedConditions.titleIs("HubSpot Login"));
 		// Expected condition failed: waiting for title to be "Hubspot Login". Current
 		// title:
-		// "HubSpot Login" (tried for 10 second(s) with 500 milliseconds interval)
+		// "HubSpot Login" (tried for 10 second(s) with 500 milliseconds
+		// interval)-->polling
 
 		System.out.println(driver.getTitle());
 

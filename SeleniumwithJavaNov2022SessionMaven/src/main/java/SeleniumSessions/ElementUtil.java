@@ -8,7 +8,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ElementUtil {
 	WebDriver driver;
@@ -253,4 +255,23 @@ public class ElementUtil {
 		}
 
 	}
+
+	// **************************** Wait Utils *******************************
+
+	public void waitForTitlePresent(String titleValue, int timeOut) {
+		WebDriverWait wait = new WebDriverWait(driver, timeOut);
+		wait.until(ExpectedConditions.titleIs(titleValue));
+	}
+
+	public void waitForTitlePresent(String titleValue, int timeOut, int intervalTime) {
+		WebDriverWait wait = new WebDriverWait(driver, timeOut, intervalTime);
+		wait.until(ExpectedConditions.titleIs(titleValue));
+	}
+
+	public WebElement waitForElementToBeLocated(By locator, int timeOut) {
+		WebDriverWait wait = new WebDriverWait(driver, timeOut);
+		return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+
+	}
+
 }
