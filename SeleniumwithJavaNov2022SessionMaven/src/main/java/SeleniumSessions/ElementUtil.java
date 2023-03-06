@@ -4,6 +4,7 @@ package SeleniumSessions;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -266,6 +267,17 @@ public class ElementUtil {
 	public void waitForTitlePresent(String titleValue, int timeOut, int intervalTime) {
 		WebDriverWait wait = new WebDriverWait(driver, timeOut, intervalTime);
 		wait.until(ExpectedConditions.titleIs(titleValue));
+	}
+
+	public Alert WaitForAlertToBePresent(int timeOut) {
+		WebDriverWait wait = new WebDriverWait(driver, timeOut);
+		return wait.until(ExpectedConditions.alertIsPresent());
+	}
+
+	public boolean waitForUrl(String urlValue, int timeOut) {
+		WebDriverWait wait = new WebDriverWait(driver, timeOut);
+		return wait.until(ExpectedConditions.urlContains(urlValue));
+
 	}
 
 	public WebElement waitForElementToBeLocated(By locator, int timeOut) {

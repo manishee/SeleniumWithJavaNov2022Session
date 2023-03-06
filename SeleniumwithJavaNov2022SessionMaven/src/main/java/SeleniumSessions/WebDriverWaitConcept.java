@@ -32,11 +32,21 @@ public class WebDriverWaitConcept {
 
 		waitForElementToBeLocated(emailId, 10).sendKeys("Manish123@gmail.com");
 
+//		waitForElementToBeVisible(emailId, 5).sendKeys("manish@123");
 		driver.findElement(By.id("password")).sendKeys("manish123");
 		driver.findElement(By.id("loginBtn")).click();
 
-		waitForElementToBeLocated(signUpLink, 10).click();
+//		waitForElementToBeLocated(signUpLink, 10).click();
 
+	}
+
+	public static WebElement getElement(By locator) {
+		return driver.findElement(locator);
+	}
+
+	public static WebElement waitForElementToBeVisible(By locator, int timeOut) {
+		WebDriverWait wait = new WebDriverWait(driver, timeOut);
+		return wait.until(ExpectedConditions.visibilityOf(getElement(locator)));
 	}
 
 	public static WebElement waitForElementToBeLocated(By locator, int timeOut) {
