@@ -259,6 +259,20 @@ public class ElementUtil {
 
 	// **************************** Wait Utils *******************************
 
+	public List<WebElement> visibilityOfAllElement(By locator, int timeOut) {
+		WebDriverWait wait = new WebDriverWait(driver, timeOut);
+		return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+	}
+
+	public void getPageLinksText(By locator, int timeOut) {
+		// visibilityOfAllElement(locator, timeOut).stream().forEach(ele ->
+		// System.out.println(ele.getText()));
+	}
+
+	public void getPageLinksCount(By locator, int timeOut) {
+		visibilityOfAllElement(locator, timeOut).size();
+	}
+
 	public void waitForTitlePresent(String titleValue, int timeOut) {
 		WebDriverWait wait = new WebDriverWait(driver, timeOut);
 		wait.until(ExpectedConditions.titleIs(titleValue));
@@ -277,12 +291,21 @@ public class ElementUtil {
 	public boolean waitForUrl(String urlValue, int timeOut) {
 		WebDriverWait wait = new WebDriverWait(driver, timeOut);
 		return wait.until(ExpectedConditions.urlContains(urlValue));
-
 	}
 
 	public WebElement waitForElementToBeLocated(By locator, int timeOut) {
 		WebDriverWait wait = new WebDriverWait(driver, timeOut);
 		return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+	}
+
+	public WebElement waitForElementToBeVisible(By locator, int timeOut) {
+		WebDriverWait wait = new WebDriverWait(driver, timeOut);
+		return wait.until(ExpectedConditions.visibilityOf(getElement(locator)));
+	}
+
+	public void waitForElementToBeClickable(By locator, int timeOut) {
+		WebDriverWait wait = new WebDriverWait(driver, timeOut);
+		wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
 
 	}
 

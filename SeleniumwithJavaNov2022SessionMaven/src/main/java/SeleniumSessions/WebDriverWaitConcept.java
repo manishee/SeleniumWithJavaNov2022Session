@@ -30,13 +30,18 @@ public class WebDriverWaitConcept {
 //
 //		email_ele.sendKeys("Manish123@gmail.com");
 
-		waitForElementToBeLocated(emailId, 10).sendKeys("Manish123@gmail.com");
+//		waitForElementToBeLocated(emailId, 10).sendKeys("Manish123@gmail.com");
 
 //		waitForElementToBeVisible(emailId, 5).sendKeys("manish@123");
 		driver.findElement(By.id("password")).sendKeys("manish123");
 		driver.findElement(By.id("loginBtn")).click();
 
 //		waitForElementToBeLocated(signUpLink, 10).click();
+
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.elementToBeClickable(signUpLink)).click();
+
+		waitForElementToBeClickable(signUpLink, 5);
 
 	}
 
@@ -52,6 +57,12 @@ public class WebDriverWaitConcept {
 	public static WebElement waitForElementToBeLocated(By locator, int timeOut) {
 		WebDriverWait wait = new WebDriverWait(driver, timeOut);
 		return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+
+	}
+
+	public static void waitForElementToBeClickable(By locator, int timeOut) {
+		WebDriverWait wait = new WebDriverWait(driver, timeOut);
+		wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
 
 	}
 
