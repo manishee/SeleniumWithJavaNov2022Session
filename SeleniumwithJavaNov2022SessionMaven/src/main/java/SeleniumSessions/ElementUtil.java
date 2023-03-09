@@ -3,9 +3,11 @@ package SeleniumSessions;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -306,7 +308,44 @@ public class ElementUtil {
 	public void waitForElementToBeClickable(By locator, int timeOut) {
 		WebDriverWait wait = new WebDriverWait(driver, timeOut);
 		wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
-
 	}
 
+	/**
+	 * This is custom dynamic wait to find a web element
+	 *
+	 * @param locator
+	 * @return
+	 */
+	public WebElement retryingElement(By locator) {
+
+		WebElement element = null;
+		int attempts = 0;
+
+		while (attempts < 30) {
+			try {
+				element = driver.findElement(locator);
+				break;
+			}
+
+			catch (StaleElementReferenceException e) {
+				try {
+					Thread.sleep(500);
+				} catch (InterruptedException e1) {
+				}
+			}
+
+			catch (NoSuchElementException e) {
+				try {
+					Thread.sleep(500);
+				} catch (InterruptedException e1) {
+				}
+
+				System.out.println("element is not found in attempt" + (attempts + 1));
+			}
+
+			attempts++;
+		}
+
+		return element;
+	}
 }
