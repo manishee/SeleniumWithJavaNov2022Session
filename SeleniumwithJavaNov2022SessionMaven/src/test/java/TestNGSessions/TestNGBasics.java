@@ -11,37 +11,25 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-[RemoteTestNG] detected TestNG version 7.0.1
-BS -- connect with DB
-BT -- create user in DB
-BC -- launch browser
-BM -- login to App
-check User Is Active Test
-AM -- user is logged out
-BM -- login to App
-check User profile Test
-AM -- user is logged out
-BM -- login to App
-Get user info test
-AM -- user is logged out
-AC -- close browser
-AT -- deleet user in DB
-AS -- disconnect from DB
-PASSED: checkUserIsActiveTest
-PASSED: checkUserProfileTest
-PASSED: getUserInfoTest
+//BS -- connect with DB
+//BT -- create user in DB
+//BC -- launch browser
 
-===============================================
-    Default test
-    Tests run: 3, Failures: 0, Skips: 0
-===============================================
+//BM -- login to App
+//check User Is Active Test
+//AM -- user is logged out
 
-AS -- disconnect from DB
+//BM -- login to App
+//check User profile Test
+//AM -- user is logged out
 
-===============================================
-Default suite
-Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
-===============================================
+//BM -- login to App
+//Get user info test
+//AM -- user is logged out
+
+//AC -- close browser
+//AT -- deleet user in DB
+//AS -- disconnect from DB
 
 public class TestNGBasics {
 
