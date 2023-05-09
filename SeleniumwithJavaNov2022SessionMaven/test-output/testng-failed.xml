@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGSessions.ExpectedExceptionConcept">
+      <class name="TestNGSessions.TestNGBasics">
         <methods>
-          <include name="loginTest"/>
+          <include name="createUserInDB"/>
+          <include name="loginToApp"/>
+          <include name="deleteUserInDB"/>
+          <include name="logOut"/>
+          <include name="closeBrowser"/>
+          <include name="disconnectDB"/>
+          <include name="launchBrowser"/>
+          <include name="connectDB"/>
+          <include name="checkUserProfileTest"/>
         </methods>
-      </class> <!-- TestNGSessions.ExpectedExceptionConcept -->
+      </class> <!-- TestNGSessions.TestNGBasics -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -28,7 +28,7 @@ import org.testng.annotations.Test;
 //AM -- user is logged out
 
 //AC -- close browser
-//AT -- deleet user in DB
+//AT -- delete user in DB
 //AS -- disconnect from DB
 
 public class TestNGBasics {
@@ -74,6 +74,7 @@ public class TestNGBasics {
 	@Test
 	public void checkUserProfileTest() {
 		System.out.println("check User profile Test");
+		int i = 9 / 0;
 	}
 
 	@AfterMethod
