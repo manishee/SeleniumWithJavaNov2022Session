@@ -28,9 +28,9 @@ public class SelectClassDropDown {
 //		select.selectByIndex(15);
 //		select.selectByValue("Australia");
 
-		doSelectDropDownByVisibleText(country, "India");
+		// doSelectDropDownByVisibleText(country, "India");
 		doSelectDropDownByIndex(country, 1);
-		doSelectDropDownByValue(country, "Zaire");
+		// doSelectDropDownByValue(country, "Zaire");
 
 	}
 
