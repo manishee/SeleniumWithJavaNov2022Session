@@ -1,8 +1,8 @@
 INDEX VERSION 1.131+/Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/.metadata/.plugins/org.eclipse.jdt.core
 1458063791.index
 272946190.index
-3300147395.index
-1315684433.index
+1220097467.index
+929710189.index
 1850907628.index
 1937229395.index
 3211887334.index
@@ -16,8 +16,8 @@ INDEX VERSION 1.131+/Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/.metada
 1531785992.index
 3011697298.index
 2405663849.index
-380245110.index
 307295326.index
+380245110.index
 1948232718.index
 2519916099.index
 2592447185.index
@@ -25,9 +25,9 @@ INDEX VERSION 1.131+/Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/.metada
 3500638921.index
 3866480845.index
 1418000337.index
-3203864928.index
-3088854460.index
 3182909408.index
+3088854460.index
+3203864928.index
 2643399556.index
 2043145510.index
 1149438930.index
@@ -46,10 +46,11 @@ INDEX VERSION 1.131+/Users/mchugh/Desktop/SeleniumWithJavaNov2022Session/.metada
 1130184515.index
 2273882137.index
 3793286776.index
+2985723556.index
 595253813.index
 1274484344.index
 3619573022.index
 898816560.index
 3436605881.index
-1220097467.index
-929710189.index
+1315684433.index
+3300147395.index
