@@ -20,7 +20,7 @@ public class Webtable {
 		Thread.sleep(2000);
 
 		driver.findElement(By.name("email")).sendKeys("manishchugh1981@gmail.com");
-		driver.findElement(By.name("password")).sendKeys("******");
+		driver.findElement(By.name("password")).sendKeys("iloveU@123");
 		driver.findElement(By.xpath("//div[text()='Login']")).click();
 		Thread.sleep(2000);
 

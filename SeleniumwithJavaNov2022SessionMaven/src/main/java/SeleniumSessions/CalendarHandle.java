@@ -6,7 +6,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -14,8 +14,8 @@ public class CalendarHandle {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.ixigo.com/");
 
 		driver.findElement(By.xpath("//input[@placeholder='Depart' and @type='text']")).click();
@@ -39,7 +39,7 @@ public class CalendarHandle {
 
 		String monthValue = driver.findElement(By.xpath("(//div[@class='rd-month-label'])[4]")).getText();
 
-		while (!monthValue.contains("July 2023")) {
+		while (!monthValue.contains("November 2023")) {
 			driver.findElement(By.xpath("(//button[@class='ixi-icon-arrow rd-next'])[2]")).click();
 			monthValue = driver.findElement(By.xpath("(//div[@class='rd-month-label'])[4]")).getText();
 		}

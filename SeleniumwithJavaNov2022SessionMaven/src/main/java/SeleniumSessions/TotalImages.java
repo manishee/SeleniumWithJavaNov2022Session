@@ -23,16 +23,16 @@ public class TotalImages {
 		driver = new ChromeDriver();
 		driver.get("https://www.amazon.ca");
 
-//		List<WebElement> images_list = driver.findElements(By.tagName("img"));
-//		System.out.println("Total images are " + images_list.size());
-//
-//		for (WebElement e : images_list) {
-//			String src = e.getAttribute("src");
-//			System.out.println(src);
-//		}
+		List<WebElement> images_list = driver.findElements(By.tagName("img"));
+		System.out.println("Total images are " + images_list.size());
 
-		System.out.println("total images are " + getElementsCount("img"));
-		System.out.println("total links are " + getElementsCount("a"));
+		for (WebElement e : images_list) {
+			String src = e.getAttribute("src");
+			System.out.println(src);
+		}
+
+//		System.out.println("total images are " + getElementsCount("img"));
+//		System.out.println("total links are " + getElementsCount("a"));
 
 		List<String> srcList = getAttributesList("img", "src");
 		for (String s : srcList) {

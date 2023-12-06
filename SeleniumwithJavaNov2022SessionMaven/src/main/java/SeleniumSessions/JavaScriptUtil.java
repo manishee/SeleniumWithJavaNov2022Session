@@ -60,6 +60,7 @@ public class JavaScriptUtil {
 	public void sendKeysUsingWithId(String id, String value) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("document.getElementById('" + id + "').value='" + value + "'");
+
 	}
 
 	public void scrollPageDown() {

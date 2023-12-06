@@ -16,14 +16,16 @@ public class AmazonSearch {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.amazon.ca/");
-		driver.findElement(By.name("field-keywords")).sendKeys("apple macbook");
+		driver.findElement(By.name("field-keywords")).sendKeys("bottle");
+		Thread.sleep(3000);
 		List<WebElement> optionsList = driver.findElements(By.xpath(
-				"//div[@class='autocomplete-results-container']/div//div[@class='s-suggestion s-suggestion-ellipsis-direction']"));
+				"//div[@class='left-pane-results-container']/div/div/div[@class='s-suggestion s-suggestion-ellipsis-direction']"));
+		// optionsList.get(4).click();
 		System.out.println(optionsList.size());
 		for (WebElement e : optionsList) {
 			String text = e.getText();
 			System.out.println(text);
-			if (text.contains("pro"))
+			if (text.contains("bottle drying rack"))
 				e.click();
 			break;
 		}
