@@ -20,6 +20,7 @@ public class DataTypes {
 		//size : 1 byte = 8 bits
 		//range : -128 to 127
 		byte b=10;
+		//byte b =10.12; cant do it 
 		byte b1=20;
 		byte b2=0;
 		byte b3=-30;
