@@ -36,11 +36,14 @@ public class StringConcatenation {
 		System.out.println("The value of b is " +b);
 		System.out.println("The sum of a and b is " +(a+b));
 		
-		//int i=4/2.0;
+		//int i=4/2;
+		//double i=4/2; //internally its 4.0/2.0
+		//int i=4/2.0; -> error ..this operation will give me a double and i am striing to store in int, change to double and it works fine
+		
 		//System.out.println(i);
 		System.out.println(4/2);
-		System.out.println(5/2);//.5 will be lost
-		System.out.println(5/2.0);//2.5
+		System.out.println(5/2);//.5 will be lost, output will be integer
+		System.out.println(5/2.0);//2.5 when we have a a double value, output will be double
 		System.out.println(5.0/2);//2.5
 		System.out.println(5.0/2.0);//2.5
 		
